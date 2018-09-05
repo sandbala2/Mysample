@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Story: US-1456 allow to edit the send to datawarehouse field</description>
+    <label>GCRM Edit Send to Data Warehouse</label>
+</CustomPermission>
