@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>strCommentMessage</name>
+                <value>We would love to hear your thoughts on how we can improve our tool</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>strCompleteMessage</name>
+                <value>Thank you for submitting your feedback of the Pipeline Insights Tool</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>strFeedbackType</name>
+                <value>Pipeline Insights Tool</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>strRatingMessage</name>
+                <value>Please rate the quality of the tool from 1-10</value>
+            </componentInstanceProperties>
+            <componentName>GCRM_Feedback</componentName>
+        </componentInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>GCRM_Feedback</masterLabel>
+    <template>
+        <name>flexipage:defaultAppHomeTemplate</name>
+    </template>
+    <type>AppPage</type>
+</FlexiPage>
